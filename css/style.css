@@ -423,7 +423,7 @@ background-color: #ffffff;
 	background-color: rgb(70, 85, 223);
 }
 
-html{
+body{
     background-image: url('DA.png');
     background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-2/soccer.jpeg");
     background-size: cover;
