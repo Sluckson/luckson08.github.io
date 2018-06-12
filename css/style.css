@@ -116,6 +116,12 @@ nav a:hover {
 	width: 20%;
 	margin:6%;
 	
+ 
+    background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-2/soccer.jpeg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    height: 300px;
 	
 }
 
@@ -423,12 +429,6 @@ background-color: #ffffff;
 	background-color: rgb(70, 85, 223);
 }
 
-body{
-    background-image: url('DA.png');
-    background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-2/soccer.jpeg");
-    background-size: cover;
-    background-position: center;
-    background-attachment: fixed;
-    height: 300px;
 
-}
+   
+
