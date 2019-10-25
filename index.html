@@ -4,74 +4,52 @@
 <head>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>SURPRICE LUCKSON</title>
-	<link rel="icon" type="image/ico" href="images/log.png" />
+	<link rel="icon" type="" href="" />
 	<link rel="stylesheet" type="text/css" href="css/style.css">
 </head>
 <body>
-	<br>
-	<div class="wrapper">
-        
-		<section id="splash">
-			<img src="images/log.png" alt="your name - logo" />
-			<h1> <b>I AM SURPRICE LUCKSON WELCOME TO MY PORTFOLIO</b></h1>
-			<h4><b>WEB DESIGNER WEB MASTER PROGRAMMER PORTFOLIO</b></h4>
-			<p class="intro"><b>I STUDY NOW THE COMPUTER SCIENCE</b></p>
-        </section>
-        
-		<nav>
-			<a href="index.html#about"><img src="images/icon-about.png" alt="find out more about me"><br>About</a>		
-			<a href="index.html#resume"><img src="images/paralegal-resume.png" alt="download my resume"><br>Resume</a>
-			<a href="index.html#projects"><img src="images/j.png" alt="check out the work in my portfolio"><br>Projects</a>
-			<a href="index.html#contact"><img src="images/icon-about-contact.svg" alt="send me an email"><br>Contact</a>
-			<a href="index.html#contact"><img src="images/images (1).png" alt="send me an email"><br>Certificate</a>
-        </nav>
-        
-		<section id="projects">
-			<h2><b>Projects</b></h2>
-			<a href="project1.html"><img src="images/web1.png" alt="project name"/></a>
-			<a href="project2.html"><img src="images/th (8).jpg" alt="project name" /></a>
-			<a href="http://luckson.trinedu.webfactional.com"><img src="images/MY-WEBSITE.png" alt="project name" /></a>
-			
-        </section>
-        
-		<section id="about" class="clearfix">
-			<h2><b>About Me</b></h2>
-			<div id="bio">
-				<p>brief summary of your skills and the lines of work in which you engage</p>
-				<div class="columns">
-					<h3>Skills</h3>
-					<ul>
-						<li>web master</li>
-						<li>web designer</li>
-						<li>profetional offices</li>
-					</ul>
-				</div>
-				<div class="columns">				
-					<h3>Programs</h3>
-					<ul>
-						<li>programer</li>
-						<li>Visual Studio Code</li>
-						<li>bracket</li>
-					</ul>
-					<h3>Languages</h3>
-					<ul>
-						<li>java</li>
-						<li>HTML/CSS</li>
-						<li>C#</li>
-					</ul>
-				</div>
-				<a href="#" class="cta" id="resume">Download resume</a>
-			</div>
-				<img src="images/lu.jpg" alt="your name - headshot">
-				<img src="images/images/" alt="">
-        </section>
-        
-		<section id="contact">
-			<h2>Contact Me</h2>
-			<h3>luckson surprice</h3>
-			<a href="mailto:lucksonsurprice94@gmail.com">lucksonsurprice94@gmail.com</a>
-        </section>
-        
-	</div>
+	
+		<div class="topnav">
+				<img src="images/logod.png">
+				<a  href="#home">Home</a>
+				<a href="#news">News</a>
+				<a href="#contact">Contact</a>
+				<a href="#about">About</a>
+		</div>
+<section class="section-2">
+<div class="infos">
+	
+		<li> Tel : lucksonsurprice94@gmail.com</li>
+		<li>(+509) 44-55-38-76</li>
+		<li>port-au-prince Haiti</li>
+		<li>Petion-ville</li>
+</div>
+</section>
+
+
+
+
+<div class="w3-content w3-section" style="max-width:1800px">
+	<img class="mySlides" src="images/images.jpg" style="width:100%">
+	<img class="mySlides" src="images/majine.jpg" style="width:100%">
+	<img class="mySlides" src="images/téléchargement.jpg" style="width:100%">
+  </div>
+  
+  <script>
+  var myIndex = 0;
+  carousel();
+  
+  function carousel() {
+	var i;
+	var x = document.getElementsByClassName("mySlides");
+	for (i = 0; i < x.length; i++) {
+	  x[i].style.display = "none";  
+	}
+	myIndex++;
+	if (myIndex > x.length) {myIndex = 1}    
+	x[myIndex-1].style.display = "block";  
+	setTimeout(carousel, 20000); // Change image every 2 seconds
+  }
+  </script>
 </body>
 </html>
